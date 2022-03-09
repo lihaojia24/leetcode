@@ -1,5 +1,3 @@
-
-
 from typing import List
 
 # s = "**|**|***|", queries = [[2,5],[5,9]]
