@@ -18,6 +18,3 @@ class Solution:
         return f"{root.val}({self.tree2str(root.left)})"
       return f"{root.val}({self.tree2str(root.left)})({self.tree2str(root.right)})"
       
-#diedai
-class Solution:
-  def tree2str(self, root: Optional[TreeNode]) -> str:
