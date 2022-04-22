@@ -9,7 +9,7 @@ func maxRotateFunction(nums []int) (ans int) {
 		tmp += i * num
 	}
 	ans = tmp
-	for i, _ := range nums {
+	for i := range nums {
 		if i == 0 {
 			continue
 		}
