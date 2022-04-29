@@ -33,7 +33,10 @@ func construct(grid [][]int) *Node {
 				BottomRight: dfs(rMid, r1, cMid, c1),
 			}
 		} else {
-			return
+			return &Node{
+				Val:    grid[r0][c0] == 1,
+				IsLeaf: true,
+			}
 		}
 		// for r := r0; r < r1; r++ {
 		// 	for c := c0; c < c1; c++ {
@@ -51,10 +54,10 @@ func construct(grid [][]int) *Node {
 		// 		}
 		// 	}
 		// }
-		return &Node{
-			Val:    grid[r0][c0] == 1,
-			IsLeaf: true,
-		}
+		// return &Node{
+		// 	Val:    grid[r0][c0] == 1,
+		// 	IsLeaf: true,
+		// }
 	}
 	return dfs(0, len(grid), 0, len(grid))
 }
