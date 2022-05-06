@@ -2,12 +2,15 @@ package main
 
 import "fmt"
 
-func findTheWinner(n int, k int) int {
-	ans := 0
-	for i := 2; i < n+1; i++ {
-		ans = (ans + k) % i
+func findTheWinner0(n int, k int) int {
+	if n == 1 {
+		return 0
 	}
-	return ans + 1
+	return (findTheWinner0(n-1, k) + k) % n
+}
+
+func findTheWinner(n int, k int) int {
+	return findTheWinner0(n, k) + 1
 }
 
 func main() {
