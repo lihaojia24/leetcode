@@ -64,8 +64,8 @@ func fallingSquares(positions [][]int) (ans []int) {
 				delI = append(delI, i)
 			}
 		}
-		for _, index := range delI {
-
+		for i, index := range delI {
+			keys = append(keys[:index-i], keys[index-i+1:]...)
 		}
 		// keys = keysT
 		// fmt.Printf("keys: %v\n", keys)
