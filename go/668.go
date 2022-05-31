@@ -37,4 +37,7 @@ func findKthNumberList(nums []int, num int) int {
 func main() {
 	nums := []int{1, 2, 3, 4, 5, 6, 7}
 	fmt.Printf("findKthNumberList(nums, 5): %v\n", findKthNumberList(nums, 9))
+	for {
+
+	}
 }
