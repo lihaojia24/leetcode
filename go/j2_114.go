@@ -66,7 +66,7 @@ next:
 	for i := 1; i < len(words); i++ {
 		pre, word := words[i-1], words[i]
 		for _, ch := range word {
-			inDeg[byte(ch)] = inDeg[byte(ch)]
+			inDeg[byte(ch)] = inDeg[byte(ch)] + 0
 		}
 		for j := 0; j < len(word) && j < len(pre); j++ {
 			if pre[j] != word[j] {
