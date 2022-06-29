@@ -1,3 +1,5 @@
+// go run go_tool_pprof.go
+// go tool pprof -http=:1248 http://127.0.0.1:6060/debug/pprof/goroutine
 package main
 
 import (
