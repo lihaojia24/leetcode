@@ -21,5 +21,4 @@ class Solution:
                 ans = min(ans + 1, cntB)
             else:
                 cntB+=1
-
         return ans
