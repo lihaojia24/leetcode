@@ -5,12 +5,13 @@ class Solution:
         left = 0
         right = len(arr) - 1
         ans = len(arr)
-        while left < right and arr[left] < arr[left+1]:
+        while left < right and arr[left] <= arr[left+1]:
             left += 1
-        if left == right:
+        left += 1
+        if left == len(arr):
             return 0
-        while left > 0:
-            while arr[right] >= arr[left] and (right == len(arr) - 1 or (right > 0 and arr[right] < arr[right+1])):
+        while left >= 0:
+            while (left == 0 or arr[right] >= arr[left-1]) and (right == len(arr) - 1 or (right > 0 and arr[right] <= arr[right+1])):
                 right -= 1
             print(left, right)
             ans = min(ans, right-left+1)
