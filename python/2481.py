@@ -1,10 +1,7 @@
 class Solution:
     def numberOfCuts(self, n: int) -> int:
+        if n == 1: return 0
         if n % 2:
             return n
-        ans = 0
-        while n % 2 == 0:
-            ans += 1
-            n /= 2
-        ans += n - 1
-        return ans 
+        else:
+            return n // 2
