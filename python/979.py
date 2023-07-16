@@ -21,6 +21,7 @@ class Solution:
                 rv, rn = dfs(node.right)
                 v += rv
                 n += rn
+            nonlocal ans
             ans += abs(v - n)
             return v, n
         dfs(root)
