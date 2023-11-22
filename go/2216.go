@@ -18,6 +18,6 @@ func minDeletion(nums []int) (ans int) {
 }
 
 func main() {
-	nums := []int{1, 1, 2, 2, 3, 3}
+	nums := []int{1, 1, 2, 2, 3, 3, 3}
 	fmt.Printf("minDeletion(nums): %v\n", minDeletion(nums))
 }
