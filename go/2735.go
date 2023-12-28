@@ -25,3 +25,10 @@ func minCost(nums []int, x int) int64 {
 	// }
 	return int64(res)
 }
+
+func sum(nums []int) (ans int) {
+	for _, num := range nums {
+		ans += num
+	}
+	return
+}
