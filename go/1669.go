@@ -1,14 +1,5 @@
 package main
 
-func main() {
-
-}
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func mergeInBetween(list1 *ListNode, a int, b int, list2 *ListNode) *ListNode {
 	p1 := list1
 	p2 := list1
