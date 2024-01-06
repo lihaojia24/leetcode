@@ -32,7 +32,3 @@ func init() {
 func punishmentNumber(n int) int {
 	return m[n]
 }
-
-func main() {
-
-}

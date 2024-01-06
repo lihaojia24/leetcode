@@ -1,27 +1,20 @@
 package main
 
-type Node struct {
-	Val  int
-	Next *Node
-}
+// type Node struct {
+// 	Val  int
+// 	Next *Node
+// }
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
-func insertNext(node *Node, x int) {
-	xNode := &Node{Val: x}
+func insertNext(node *Node1, x int) {
+	xNode := &Node1{Val: x}
 	xNode.Next = node.Next
 	node.Next = xNode
 	return
 }
 
-func insert(aNode *Node, x int) *Node {
+func insert(aNode *Node1, x int) *Node1 {
 	if aNode == nil {
-		node := &Node{Val: x}
+		node := &Node1{Val: x}
 		node.Next = node
 		return node
 	}
@@ -58,8 +51,4 @@ func insert(aNode *Node, x int) *Node {
 		}
 		aNode = aNode.Next
 	}
-}
-
-func main() {
-
 }

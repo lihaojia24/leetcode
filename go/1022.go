@@ -1,10 +1,10 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+// type TreeNode struct {
+// 	Val   int
+// 	Left  *TreeNode
+// 	Right *TreeNode
+// }
 
 func sumRootToLeaf(root *TreeNode) int {
 	q := []*TreeNode{root}
@@ -25,8 +25,4 @@ func sumRootToLeaf(root *TreeNode) int {
 		}
 	}
 	return ans
-}
-
-func main() {
-
 }

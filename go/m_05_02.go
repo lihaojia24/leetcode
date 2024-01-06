@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -22,6 +21,6 @@ func printBin(num float64) string {
 	return "ERROR"
 }
 
-func main() {
-	fmt.Printf("printBin(0.1): %v\n", printBin(0.75))
-}
+// func main() {
+// 	fmt.Printf("printBin(0.1): %v\n", printBin(0.75))
+// }

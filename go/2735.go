@@ -16,7 +16,7 @@ func minCost(nums []int, x int) int64 {
 		for j := 0; j < n; j++ {
 			costs[j] = min(costs[j], nums[(j+i)%n])
 		}
-		ans[i] += sum(costs)
+		ans[i] += sum1(costs)
 	}
 	res := slices.Min[[]int](ans)
 	// res := ans[0]
@@ -26,7 +26,7 @@ func minCost(nums []int, x int) int64 {
 	return int64(res)
 }
 
-func sum(nums []int) (ans int) {
+func sum1(nums []int) (ans int) {
 	for _, num := range nums {
 		ans += num
 	}

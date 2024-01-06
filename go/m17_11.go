@@ -1,12 +1,12 @@
 package main
 
-func min(x, y int) int {
-	if x > y {
-		return x
-	} else {
-		return y
-	}
-}
+// func min(x, y int) int {
+// 	if x > y {
+// 		return x
+// 	} else {
+// 		return y
+// 	}
+// }
 
 func findClosest(words []string, word1 string, word2 string) (ans int) {
 	index1, index2 := -1, -1
@@ -26,8 +26,4 @@ func findClosest(words []string, word1 string, word2 string) (ans int) {
 		}
 	}
 	return ans
-}
-
-func main() {
-
 }

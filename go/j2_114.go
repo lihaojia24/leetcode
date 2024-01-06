@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func alienOrder(words []string) string {
 	// 构造有向图
 	m := map[byte][]byte{}
@@ -101,10 +99,10 @@ next2:
 	return string(ans)
 }
 
-func main() {
-	words := []string{"wrt", "wrf", "er", "ett", "rftt"}
-	for i := 0; i < 50; i++ {
-		fmt.Printf("alienOrder(words): %v\n", alienOrderBFS(words))
-	}
+// func main() {
+// 	words := []string{"wrt", "wrf", "er", "ett", "rftt"}
+// 	for i := 0; i < 50; i++ {
+// 		fmt.Printf("alienOrder(words): %v\n", alienOrderBFS(words))
+// 	}
 
-}
+// }

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func oneEditAway(first string, second string) bool {
 	dis := len(first) - len(second)
 	if dis != 0 && dis != 1 && dis != -1 {
@@ -32,8 +30,8 @@ func oneEditAway(first string, second string) bool {
 	return true
 }
 
-func main() {
-	first := "abcdds"
-	second := "abcdd"
-	fmt.Printf("oneEditAway(first, second): %v\n", oneEditAway(first, second))
-}
+// func main() {
+// 	first := "abcdds"
+// 	second := "abcdd"
+// 	fmt.Printf("oneEditAway(first, second): %v\n", oneEditAway(first, second))
+// }

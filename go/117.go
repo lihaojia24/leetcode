@@ -1,20 +1,20 @@
 package main
 
-type Node struct {
+type Node1 struct {
 	Val   int
-	Left  *Node
-	Right *Node
-	Next  *Node
+	Left  *Node1
+	Right *Node1
+	Next  *Node1
 }
 
-func connect(root *Node) *Node {
+func connect(root *Node1) *Node1 {
 	if root == nil {
 		return nil
 	}
-	nodeList := []*Node{root}
+	nodeList := []*Node1{root}
 	levelList := []int{0}
 	i := 0
-	var node *Node
+	var node *Node1
 	for i < len(nodeList) {
 		node = nodeList[i]
 		if node.Left != nil {
@@ -35,6 +35,6 @@ func connect(root *Node) *Node {
 	return root
 }
 
-func main() {
+// func main() {
 
-}
+// }

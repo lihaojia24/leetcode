@@ -16,7 +16,3 @@ func longestAlternatingSubarray(nums []int, threshold int) (ans int) {
 	}
 	return
 }
-
-func main() {
-
-}

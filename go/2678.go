@@ -11,7 +11,3 @@ func countSeniors(details []string) (ans int) {
 	}
 	return
 }
-
-func main() {
-
-}

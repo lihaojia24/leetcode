@@ -3,13 +3,13 @@ package main
 type Node struct {
 	Val         bool
 	IsLeaf      bool
-	TopLeft     *Node
-	TopRight    *Node
-	BottomLeft  *Node
-	BottomRight *Node
+	TopLeft     *Node1
+	TopRight    *Node1
+	BottomLeft  *Node1
+	BottomRight *Node1
 }
 
-func construct(grid [][]int) *Node {
+func construct(grid [][]int) *Node1 {
 	n := len(grid)
 	pre := make([][]int, n+1)
 	pre[0] = make([]int, n+1)
@@ -19,12 +19,12 @@ func construct(grid [][]int) *Node {
 			pre[i+1][j+1] = pre[i+1][j] + pre[i][j+1] - pre[i][j] + v
 		}
 	}
-	var dfs func(r0, r1, c0, c1 int) *Node
-	dfs = func(r0, r1, c0, c1 int) *Node {
+	var dfs func(r0, r1, c0, c1 int) *Node1
+	dfs = func(r0, r1, c0, c1 int) *Node1 {
 		total := pre[r1][c1] - pre[r1][c0] - pre[r0][c1] + pre[r0][c0]
 		if total != 0 && total != (r1-r0)*(c1-c0) {
 			rMid, cMid := (r0+r1)/2, (c0+c1)/2
-			return &Node{
+			return &Node1{
 				Val:         true,
 				IsLeaf:      false,
 				TopLeft:     dfs(r0, rMid, c0, cMid),
@@ -33,7 +33,7 @@ func construct(grid [][]int) *Node {
 				BottomRight: dfs(rMid, r1, cMid, c1),
 			}
 		} else {
-			return &Node{
+			return &Node1{
 				Val:    grid[r0][c0] == 1,
 				IsLeaf: true,
 			}

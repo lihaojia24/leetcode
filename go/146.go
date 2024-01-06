@@ -14,7 +14,7 @@ type LRUCache struct {
 	k2node   map[int]*list.Element
 }
 
-func Constructor(capacity int) LRUCache {
+func Constructor1(capacity int) LRUCache {
 	return LRUCache{capacity, 0, list.New(), map[int]*list.Element{}}
 }
 

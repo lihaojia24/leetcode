@@ -3,14 +3,14 @@ package main
 type Node struct {
 	Val         bool
 	IsLeaf      bool
-	TopLeft     *Node
-	TopRight    *Node
-	BottomLeft  *Node
-	BottomRight *Node
+	TopLeft     *Node1
+	TopRight    *Node1
+	BottomLeft  *Node1
+	BottomRight *Node1
 }
 
-func intersect(quadTree1 *Node, quadTree2 *Node) *Node {
-	res := new(Node)
+func intersect(quadTree1 *Node1, quadTree2 *Node1) *Node1 {
+	res := new(Node1)
 	if quadTree1.IsLeaf && quadTree2.IsLeaf {
 		res.IsLeaf = true
 		res.Val = quadTree1.Val && quadTree2.Val

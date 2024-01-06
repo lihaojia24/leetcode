@@ -4,7 +4,7 @@ import (
 	"sort"
 )
 
-func countPairs(nums []int, target int) int {
+func countPairs3(nums []int, target int) int {
 	ans := 0
 	sort.Ints(nums)
 	i := 0
@@ -28,8 +28,4 @@ func countPairs2(nums []int, target int) int {
 		ans += sort.SearchInts(nums[:i], res)
 	}
 	return ans
-}
-
-func main() {
-
 }
