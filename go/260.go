@@ -1,6 +1,6 @@
 package main
 
-func singleNumber(nums []int) []int {
+func singleNumber1(nums []int) []int {
 	x := 0
 	for _, num := range nums {
 		x ^= num
@@ -17,6 +17,6 @@ func singleNumber(nums []int) []int {
 	return []int{x1, x2}
 }
 
-func main() {
+// func main() {
 
-}
+// }

@@ -19,7 +19,3 @@ func inorderSuccessor(root *TreeNode, p *TreeNode) (res *TreeNode) {
 	}
 	return
 }
-
-func main() {
-
-}

@@ -62,8 +62,8 @@ func findSubstring(s string, words []string) (ans []int) {
 	return ans
 }
 
-func main() {
-	s := "a"
-	words := []string{"a"}
-	fmt.Printf("findSubstring(s, words): %v\n", findSubstring(s, words))
-}
+// func main() {
+// 	s := "a"
+// 	words := []string{"a"}
+// 	fmt.Printf("findSubstring(s, words): %v\n", findSubstring(s, words))
+// }
