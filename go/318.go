@@ -19,7 +19,3 @@ func maxProduct(words []string) (ans int) {
 	}
 	return
 }
-
-func main() {
-
-}

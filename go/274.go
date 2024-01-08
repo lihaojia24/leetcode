@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func hIndex(citations []int) int {
+func hIndex1(citations []int) int {
 	n := len(citations)
 	cnt := make([]int, n+1)
 	for _, t := range citations {
@@ -21,8 +21,4 @@ func hIndex(citations []int) int {
 		}
 	}
 	return 0
-}
-
-func main() {
-
 }

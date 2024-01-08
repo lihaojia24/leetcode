@@ -6,15 +6,15 @@ import (
 	"strings"
 )
 
-type TreeNode struct {
+type TreeNode1 struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
 }
 
-type Codec struct{}
+type Codec1 struct{}
 
-func Constructor() (_ Codec) { return }
+func Constructor11() (_ Codec) { return }
 
 // Serializes a tree to a single string.
 func (this *Codec) serialize(root *TreeNode) string {
@@ -89,18 +89,18 @@ func (this *Codec) deserialize(data string) *TreeNode {
 * ans := deser.deserialize(data);
  */
 
-func main() {
-	ser := Constructor()
-	root := &TreeNode{Val: 3}
-	root.Left = &TreeNode{Val: 2}
-	root.Right = &TreeNode{Val: 4}
-	root.Left.Left = &TreeNode{Val: 3}
-	// root.Right.Right = &TreeNode{Val: 5}
-	// root = nil
-	str := ser.serialize(root)
-	tree := ser.deserialize(str)
-	str2 := ser.serialize(tree)
-	fmt.Printf("str: %v\n", str)
-	fmt.Printf("tree: %v\n", tree)
-	fmt.Printf("str2: %v\n", str2)
-}
+// func main() {
+// 	ser := Constructor()
+// 	root := &TreeNode{Val: 3}
+// 	root.Left = &TreeNode{Val: 2}
+// 	root.Right = &TreeNode{Val: 4}
+// 	root.Left.Left = &TreeNode{Val: 3}
+// 	// root.Right.Right = &TreeNode{Val: 5}
+// 	// root = nil
+// 	str := ser.serialize(root)
+// 	tree := ser.deserialize(str)
+// 	str2 := ser.serialize(tree)
+// 	fmt.Printf("str: %v\n", str)
+// 	fmt.Printf("tree: %v\n", tree)
+// 	fmt.Printf("str2: %v\n", str2)
+// }

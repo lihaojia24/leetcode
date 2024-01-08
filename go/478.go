@@ -6,11 +6,11 @@ type Solution struct {
 	radius, x_center, y_center float64
 }
 
-func Constructor(radius float64, x_center float64, y_center float64) Solution {
-	return Solution{radius, x_center, y_center}
+func Constructor(radius float64, x_center float64, y_center float64) Solution1 {
+	return Solution1{radius, x_center, y_center}
 }
 
-func (this *Solution) RandPoint() []float64 {
+func (this *Solution1) RandPoint() []float64 {
 	for {
 		x := rand.Float64()*2 - 1
 		y := rand.Float64()*2 - 1

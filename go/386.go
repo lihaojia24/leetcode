@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func lexicalOrder(n int) []int {
 	ans := make([]int, n)
 	num := 1
@@ -19,7 +17,7 @@ func lexicalOrder(n int) []int {
 	return ans
 }
 
-func main() {
-	ans := lexicalOrder(13)
-	fmt.Printf("ans: %v\n", ans)
-}
+// func main() {
+// 	ans := lexicalOrder(13)
+// 	fmt.Printf("ans: %v\n", ans)
+// }

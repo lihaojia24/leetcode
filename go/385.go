@@ -48,7 +48,3 @@ func deserialize(s string) *NestedInteger {
 	}
 	return dfs()
 }
-
-func main() {
-
-}

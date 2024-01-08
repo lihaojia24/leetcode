@@ -55,7 +55,7 @@ func diffWaysToCompute(expression string) []int {
 	return helper(ops)
 }
 
-func main() {
-	expression := "2*3-4*5"
-	fmt.Printf("diffWaysToCompute(expression): %v\n", diffWaysToCompute(expression))
-}
+// func main() {
+// 	expression := "2*3-4*5"
+// 	fmt.Printf("diffWaysToCompute(expression): %v\n", diffWaysToCompute(expression))
+// }

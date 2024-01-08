@@ -21,7 +21,3 @@ func hIndex(citations []int) int {
 	}
 	return n - l
 }
-
-func main() {
-
-}

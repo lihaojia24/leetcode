@@ -20,7 +20,3 @@ func maxRotateFunction(nums []int) (ans int) {
 	}
 	return
 }
-
-func main() {
-
-}

@@ -9,8 +9,8 @@ type pair struct{ area, x, y, width, size int }
 
 type Solution []pair
 
-func Constructor(rects [][]int) Solution {
-	s := Solution{}
+func Constructor(rects [][]int) Solution1 {
+	s := Solution1{}
 	area := 0
 	for _, rect := range rects {
 		size := (rect[2] - rect[0] + 1) * (rect[3] - rect[1] + 1)
@@ -20,7 +20,7 @@ func Constructor(rects [][]int) Solution {
 	return s
 }
 
-func (this Solution) Pick() []int {
+func (this Solution1) Pick() []int {
 	area_max := this[len(this)-1].area
 	k := rand.Intn(area_max)
 	left, right := 0, len(this)-1

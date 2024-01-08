@@ -10,7 +10,7 @@ type Solution struct {
 	bound int
 }
 
-func Constructor(n int, blacklist []int) Solution {
+func Constructor(n int, blacklist []int) Solution1 {
 	m := len(blacklist)
 	bound := n - m
 	black := map[int]bool{}
@@ -31,10 +31,10 @@ func Constructor(n int, blacklist []int) Solution {
 			w++
 		}
 	}
-	return Solution{b2w, bound}
+	return Solution1{b2w, bound}
 }
 
-func (this *Solution) Pick() int {
+func (this *Solution1) Pick() int {
 	x := rand.Intn(this.bound)
 	if num, ok := this.m[x]; ok {
 		return num

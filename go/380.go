@@ -10,7 +10,7 @@ type RandomizedSet struct {
 	indices map[int]int
 }
 
-func Constructor() RandomizedSet {
+func cConstructor() RandomizedSet {
 	return RandomizedSet{[]int{}, map[int]int{}}
 }
 
@@ -48,14 +48,14 @@ func (this *RandomizedSet) GetRandom() int {
  * param_3 := obj.GetRandom();
  */
 
-func main() {
-	obj := Constructor()
-	param_0 := obj.Insert(0)
-	param_1 := obj.Insert(1)
-	param_2 := obj.Remove(1)
-	param_3 := obj.GetRandom()
-	fmt.Printf("param_0: %v\n", param_0)
-	fmt.Printf("param_1: %v\n", param_1)
-	fmt.Printf("param_2: %v\n", param_2)
-	fmt.Printf("param_3: %v\n", param_3)
-}
+// func main() {
+// 	obj := Constructor()
+// 	param_0 := obj.Insert(0)
+// 	param_1 := obj.Insert(1)
+// 	param_2 := obj.Remove(1)
+// 	param_3 := obj.GetRandom()
+// 	fmt.Printf("param_0: %v\n", param_0)
+// 	fmt.Printf("param_1: %v\n", param_1)
+// 	fmt.Printf("param_2: %v\n", param_2)
+// 	fmt.Printf("param_3: %v\n", param_3)
+// }

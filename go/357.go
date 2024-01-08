@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func countNumbersWithUniqueDigits(n int) int {
 	if n == 0 {
 		return 1
@@ -19,7 +17,7 @@ func countNumbersWithUniqueDigits(n int) int {
 	return ans
 }
 
-func main() {
-	i := countNumbersWithUniqueDigits(3)
-	fmt.Printf("i: %v\n", i)
-}
+// func main() {
+// 	i := countNumbersWithUniqueDigits(3)
+// 	fmt.Printf("i: %v\n", i)
+// }

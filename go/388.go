@@ -1,12 +1,5 @@
 package main
 
-func max(a, b int) int {
-	if b > a {
-		return b
-	}
-	return a
-}
-
 func lengthLongestPath(input string) (ans int) {
 	n := len(input)
 	lengthStack := []int{}
@@ -36,8 +29,4 @@ func lengthLongestPath(input string) (ans int) {
 		}
 	}
 	return
-}
-
-func main() {
-
 }

@@ -89,8 +89,8 @@ func wiggleSort2(nums []int) {
 	}
 }
 
-func main() {
-	nums := []int{1, 5, 1, 1, 6, 4, 9}
-	wiggleSort(nums)
-	fmt.Printf("nums: %v\n", nums)
-}
+// func main() {
+// 	nums := []int{1, 5, 1, 1, 6, 4, 9}
+// 	wiggleSort(nums)
+// 	fmt.Printf("nums: %v\n", nums)
+// }

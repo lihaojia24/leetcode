@@ -2,15 +2,15 @@ package main
 
 import "math/rand"
 
-type Solution struct {
+type Solution1 struct {
 	nums []int
 }
 
-func Constructor(nums []int) Solution {
-	return Solution{nums}
+func ccConstructor(nums []int) Solution1 {
+	return Solution1{nums}
 }
 
-func (this *Solution) Pick(target int) (ans int) {
+func (this *Solution1) Pick(target int) (ans int) {
 	cnt := 0
 	for i, num := range this.nums {
 		if num == target {
@@ -28,7 +28,3 @@ func (this *Solution) Pick(target int) (ans int) {
  * obj := Constructor(nums);
  * param_1 := obj.Pick(target);
  */
-
-func main() {
-
-}
