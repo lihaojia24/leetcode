@@ -13,7 +13,7 @@ type Codec struct {
 	url2key map[string]int
 }
 
-func Constructor() Codec {
+func Constructor535() Codec {
 	return Codec{make(map[int]string), make(map[string]int)}
 }
 
@@ -51,6 +51,6 @@ func (this *Codec) decode(shortUrl string) string {
  * ans := obj.decode(url);
  */
 
-func main() {
+// func main() {
 
-}
+// }

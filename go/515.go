@@ -1,17 +1,17 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+// type TreeNode struct {
+// 	Val   int
+// 	Left  *TreeNode
+// 	Right *TreeNode
+// }
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
+// func max(a, b int) int {
+// 	if a > b {
+// 		return a
+// 	}
+// 	return b
+// }
 
 func largestValues(root *TreeNode) (ans []int) {
 	if root == nil {
@@ -39,8 +39,4 @@ func largestValues(root *TreeNode) (ans []int) {
 		}
 	}
 	return ans
-}
-
-func main() {
-
 }

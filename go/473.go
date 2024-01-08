@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -66,7 +65,7 @@ func makesquare2(matchsticks []int) bool {
 	return dp[len(dp)-1] == 0
 }
 
-func main() {
-	matchsticks := []int{1, 3, 2, 2, 4, 4}
-	fmt.Printf("makesquare(matchsticks): %v\n", makesquare2(matchsticks))
-}
+// func main() {
+// 	matchsticks := []int{1, 3, 2, 2, 4, 4}
+// 	fmt.Printf("makesquare(matchsticks): %v\n", makesquare2(matchsticks))
+// }

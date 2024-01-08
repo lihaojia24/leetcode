@@ -1,10 +1,10 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+// type TreeNode struct {
+// 	Val   int
+// 	Left  *TreeNode
+// 	Right *TreeNode
+// }
 
 func findBottomLeftValue(root *TreeNode) int {
 	q := []*TreeNode{root}
@@ -20,8 +20,4 @@ func findBottomLeftValue(root *TreeNode) int {
 		}
 	}
 	return node.Val
-}
-
-func main() {
-
 }

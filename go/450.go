@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-type TreeNode struct {
+type TreeNode11 struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
 }
 
-//递归
+// 递归
 func deleteNode(root *TreeNode, key int) (ans *TreeNode) {
 	ans = root
 	if root == nil {
@@ -36,7 +36,7 @@ func deleteNode(root *TreeNode, key int) (ans *TreeNode) {
 	return
 }
 
-//迭代
+// 迭代
 func deleteNode2(root *TreeNode, key int) (ans *TreeNode) {
 
 	// find
@@ -83,8 +83,4 @@ func deleteNode2(root *TreeNode, key int) (ans *TreeNode) {
 	}
 
 	return
-}
-
-func main() {
-
 }

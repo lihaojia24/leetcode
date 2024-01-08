@@ -1,13 +1,11 @@
 package main
 
-import "fmt"
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
+// func max(a, b int) int {
+// 	if a > b {
+// 		return a
+// 	}
+// 	return b
+// }
 
 func findLUSlength(strs []string) (ans int) {
 	ans = -1
@@ -35,7 +33,7 @@ nxt:
 	return
 }
 
-func main() {
-	strs := []string{"abaaa", "cdcc", "eae", "abaaa"}
-	fmt.Printf("findLUSlength(strs): %v\n", findLUSlength(strs))
-}
+// func main() {
+// 	strs := []string{"abaaa", "cdcc", "eae", "abaaa"}
+// 	fmt.Printf("findLUSlength(strs): %v\n", findLUSlength(strs))
+// }

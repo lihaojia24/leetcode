@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func findDuplicates(nums []int) (ans []int) {
 	for _, num := range nums {
 		if num < 0 {
@@ -18,7 +14,7 @@ func findDuplicates(nums []int) (ans []int) {
 	return
 }
 
-func main() {
-	nums := []int{1, 1, 2, 3, 3, 4, 5, 2}
-	fmt.Printf("findDuplicates(nums): %v\n", findDuplicates(nums))
-}
+// func main() {
+// 	nums := []int{1, 1, 2, 3, 3, 4, 5, 2}
+// 	fmt.Printf("findDuplicates(nums): %v\n", findDuplicates(nums))
+// }

@@ -1,10 +1,10 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+// type TreeNode struct {
+// 	Val   int
+// 	Left  *TreeNode
+// 	Right *TreeNode
+// }
 
 func findFrequentTreeSum(root *TreeNode) (ans []int) {
 	m := map[int]int{}
@@ -31,8 +31,4 @@ func findFrequentTreeSum(root *TreeNode) (ans []int) {
 		}
 	}
 	return
-}
-
-func main() {
-
 }

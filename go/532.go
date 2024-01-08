@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func findPairs(nums []int, k int) (ans int) {
 	m := map[int]int{}
 	for _, num := range nums {
@@ -24,8 +22,8 @@ func findPairs(nums []int, k int) (ans int) {
 	return
 }
 
-func main() {
-	nums := []int{3, 1, 4, 1, 5}
-	k := 2
-	fmt.Printf("findPairs(nums, k): %v\n", findPairs(nums, k))
-}
+// func main() {
+// 	nums := []int{3, 1, 4, 1, 5}
+// 	k := 2
+// 	fmt.Printf("findPairs(nums, k): %v\n", findPairs(nums, k))
+// }

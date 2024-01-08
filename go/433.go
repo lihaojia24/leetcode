@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func search(sSet *[]string, eSet *[]string, bankMap map[string]struct{}) bool {
 
 	eMap := map[string]struct{}{}
@@ -82,10 +78,10 @@ func minMutation(start string, end string, bank []string) int {
 	return -1
 }
 
-func main() {
-	start := "AAAAAAAA"
-	end := "CCCCCCCC"
-	bank := []string{"AAAAAAAA", "AAAAAAAC", "AAAAAACC", "AAAAACCC", "AAAACCCC", "AACACCCC", "ACCACCCC", "ACCCCCCC", "CCCCCCCA", "CCCCCCCC"}
-	step := minMutation(start, end, bank)
-	fmt.Printf("step: %v\n", step)
-}
+// func main() {
+// 	start := "AAAAAAAA"
+// 	end := "CCCCCCCC"
+// 	bank := []string{"AAAAAAAA", "AAAAAAAC", "AAAAAACC", "AAAAACCC", "AAAACCCC", "AACACCCC", "ACCACCCC", "ACCCCCCC", "CCCCCCCA", "CCCCCCCC"}
+// 	step := minMutation(start, end, bank)
+// 	fmt.Printf("step: %v\n", step)
+// }

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-var dirs = []struct{ x, y int }{{-1, 0}, {1, 0}, {0, -1}, {0, 1}}
+// var dirs = []struct{ x, y int }{{-1, 0}, {1, 0}, {0, -1}, {0, 1}}
 
 func pacificAtlantic(heights [][]int) (ans [][]int) {
 
@@ -57,15 +57,15 @@ func pacificAtlantic(heights [][]int) (ans [][]int) {
 	return ans
 }
 
-func main() {
-	heights := make([][]int, 0)
-	// for i := range heights {
-	heights = append(heights, []int{1, 2, 2, 3, 5})
-	heights = append(heights, []int{3, 2, 3, 4, 4})
-	heights = append(heights, []int{2, 4, 5, 3, 1})
-	heights = append(heights, []int{6, 7, 1, 4, 5})
-	heights = append(heights, []int{5, 1, 1, 2, 4})
-	// }
-	ans := pacificAtlantic(heights)
-	fmt.Printf("ans: %v\n", ans)
-}
+// func main() {
+// 	heights := make([][]int, 0)
+// 	// for i := range heights {
+// 	heights = append(heights, []int{1, 2, 2, 3, 5})
+// 	heights = append(heights, []int{3, 2, 3, 4, 4})
+// 	heights = append(heights, []int{2, 4, 5, 3, 1})
+// 	heights = append(heights, []int{6, 7, 1, 4, 5})
+// 	heights = append(heights, []int{5, 1, 1, 2, 4})
+// 	// }
+// 	ans := pacificAtlantic(heights)
+// 	fmt.Printf("ans: %v\n", ans)
+// }

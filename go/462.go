@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -18,6 +17,6 @@ func minMoves2(nums []int) (ans int) {
 	return
 }
 
-func main() {
-	fmt.Printf("minMoves2([]int{1, 10, 2, 9}): %v\n", minMoves2([]int{1, 10, 2, 9}))
-}
+// func main() {
+// 	fmt.Printf("minMoves2([]int{1, 10, 2, 9}): %v\n", minMoves2([]int{1, 10, 2, 9}))
+// }

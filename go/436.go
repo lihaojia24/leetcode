@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -55,8 +54,8 @@ func findRightInterval(intervals [][]int) (ans []int) {
 	return
 }
 
-func main() {
-	nums := []int{1, 2, 3}
-	ans := find2(nums, 3)
-	fmt.Printf("ans: %v\n", ans)
-}
+// func main() {
+// 	nums := []int{1, 2, 3}
+// 	ans := find2(nums, 3)
+// 	fmt.Printf("ans: %v\n", ans)
+// }

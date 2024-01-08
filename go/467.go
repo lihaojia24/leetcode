@@ -1,16 +1,6 @@
 package main
 
-import "fmt"
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	} else {
-		return b
-	}
-}
-
-func sum(nums []int) (ans int) {
+func suml(nums []int) (ans int) {
 	for _, num := range nums {
 		ans += num
 	}
@@ -32,8 +22,8 @@ func findSubstringInWraproundString(p string) int {
 	return sum(dp[:])
 }
 
-func main() {
-	fmt.Printf("findSubstringInWraproundString(\"cac\"): %v\n", findSubstringInWraproundString("zab"))
-	a := -9 % 7
-	fmt.Printf("a: %v\n", a)
-}
+// func main() {
+// 	fmt.Printf("findSubstringInWraproundString(\"cac\"): %v\n", findSubstringInWraproundString("zab"))
+// 	a := -9 % 7
+// 	fmt.Printf("a: %v\n", a)
+// }

@@ -27,7 +27,3 @@ func findDiagonalOrder(mat [][]int) (ans []int) {
 	}
 	return
 }
-
-func main() {
-
-}
