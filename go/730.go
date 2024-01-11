@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func countPalindromicSubsequences(s string) int {
 	n := len(s)
 	mod := 1000000007
@@ -39,7 +37,7 @@ func countPalindromicSubsequences(s string) int {
 	return dp[0][n-1]
 }
 
-func main() {
-	s := "abcdabcdabcdabcdabcdabcdabcdabcddcbadcbadcbadcbadcbadcbadcbadcba"
-	fmt.Printf("countPalindromicSubsequences(s): %v\n", countPalindromicSubsequences(s))
-}
+// func main() {
+// 	s := "abcdabcdabcdabcdabcdabcdabcdabcddcbadcbadcbadcbadcbadcbadcbadcba"
+// 	fmt.Printf("countPalindromicSubsequences(s): %v\n", countPalindromicSubsequences(s))
+// }

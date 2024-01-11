@@ -1,10 +1,10 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+// type TreeNode struct {
+// 	Val   int
+// 	Left  *TreeNode
+// 	Right *TreeNode
+// }
 
 func addOneRow(root *TreeNode, val int, depth int) *TreeNode {
 	var helper func(node *TreeNode, level int)
@@ -30,8 +30,4 @@ func addOneRow(root *TreeNode, val int, depth int) *TreeNode {
 		helper(root, 1)
 	}
 	return root
-}
-
-func main() {
-
 }

@@ -37,8 +37,8 @@ func exclusiveTime(n int, logs []string) []int {
 	return ans
 }
 
-func main() {
-	n := 1
-	logs := []string{"0:start:0", "0:start:2", "0:end:5", "0:start:6", "0:end:6", "0:end:7"}
-	fmt.Printf("exclusiveTime(n, logs): %v\n", exclusiveTime(n, logs))
-}
+// func main() {
+// 	n := 1
+// 	logs := []string{"0:start:0", "0:start:2", "0:end:5", "0:start:6", "0:end:6", "0:end:7"}
+// 	fmt.Printf("exclusiveTime(n, logs): %v\n", exclusiveTime(n, logs))
+// }

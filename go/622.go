@@ -7,7 +7,7 @@ type MyCircularQueue struct {
 	full  bool
 }
 
-func Constructor(k int) MyCircularQueue {
+func Constructor22(k int) MyCircularQueue {
 	return MyCircularQueue{nums: make([]int, k)}
 }
 
@@ -75,6 +75,6 @@ func (this *MyCircularQueue) IsFull() bool {
  * param_6 := obj.IsFull();
  */
 
-func main() {
+// func main() {
 
-}
+// }

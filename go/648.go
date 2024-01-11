@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type dicTree struct {
 	m      map[rune]*dicTree
 	isLeaf bool
@@ -47,8 +45,8 @@ func replaceWords(dictionary []string, sentence string) string {
 	return ans[:len(ans)-1]
 }
 
-func main() {
-	dictionary := []string{"a", "aa", "aaa", "aaaa"}
-	sentence := "a aa a aaaa aaa aaa aaa aaaaaa bbb baba ababa"
-	fmt.Printf("replaceWords(dictionary, sentence): %v\n", replaceWords(dictionary, sentence))
-}
+// func main() {
+// 	dictionary := []string{"a", "aa", "aaa", "aaaa"}
+// 	sentence := "a aa a aaaa aaa aaa aaa aaaaaa bbb baba ababa"
+// 	fmt.Printf("replaceWords(dictionary, sentence): %v\n", replaceWords(dictionary, sentence))
+// }

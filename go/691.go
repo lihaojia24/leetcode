@@ -1,15 +1,5 @@
 package main
 
-import "fmt"
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	} else {
-		return b
-	}
-}
-
 func minStickers(stickers []string, target string) int {
 	m := len(target)
 	f := make([]int, 1<<m)
@@ -47,8 +37,8 @@ func minStickers(stickers []string, target string) int {
 	}
 }
 
-func main() {
-	ss := []string{"with", "example", "science"}
-	t := "thehat"
-	fmt.Printf("minStickers(ss, t): %v\n", minStickers(ss, t))
-}
+// func main() {
+// 	ss := []string{"with", "example", "science"}
+// 	t := "thehat"
+// 	fmt.Printf("minStickers(ss, t): %v\n", minStickers(ss, t))
+// }

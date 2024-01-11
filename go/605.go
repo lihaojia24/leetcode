@@ -18,7 +18,3 @@ func canPlaceFlowers(flowerbed []int, n int) bool {
 	}
 	return ans >= n
 }
-
-func main() {
-
-}

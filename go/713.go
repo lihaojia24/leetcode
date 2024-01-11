@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func numSubarrayProductLessThanK(nums []int, k int) (ans int) {
 	tmp := 1
 	start := 0
@@ -16,7 +14,7 @@ func numSubarrayProductLessThanK(nums []int, k int) (ans int) {
 	return
 }
 
-func main() {
-	nums := []int{10, 5, 2, 6}
-	fmt.Printf("numSubarrayProductLessThanK(nums, 100): %v\n", numSubarrayProductLessThanK(nums, 100))
-}
+// func main() {
+// 	nums := []int{10, 5, 2, 6}
+// 	fmt.Printf("numSubarrayProductLessThanK(nums, 100): %v\n", numSubarrayProductLessThanK(nums, 100))
+// }

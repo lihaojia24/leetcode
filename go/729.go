@@ -4,7 +4,7 @@ type MyCalendar struct {
 	tree, lazy map[int]bool
 }
 
-func Constructor() MyCalendar {
+func Constructor729() MyCalendar {
 	return MyCalendar{map[int]bool{}, map[int]bool{}}
 }
 
@@ -47,8 +47,4 @@ func (c MyCalendar) Book(start, end int) bool {
 	}
 	c.update(start, end-1, 0, 1e9, 1)
 	return true
-}
-
-func main() {
-
 }

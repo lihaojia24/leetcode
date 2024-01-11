@@ -54,8 +54,8 @@ func maxSumOfThreeSubarrays(nums []int, k int) []int {
 	return []int{two[three[len(sums)-1].preI].preI, three[len(sums)-1].preI, three[len(sums)-1].i}
 }
 
-func main() {
-	nums := []int{7, 13, 20, 19, 19, 2, 10, 1, 1, 19}
-	k := 3
-	maxSumOfThreeSubarrays(nums, k)
-}
+// func main() {
+// 	nums := []int{7, 13, 20, 19, 19, 2, 10, 1, 1, 19}
+// 	k := 3
+// 	maxSumOfThreeSubarrays(nums, k)
+// }

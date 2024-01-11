@@ -5,9 +5,9 @@ import (
 	"strings"
 )
 
-func main() {
-	crackSafe(3, 2)
-}
+// func main() {
+// 	crackSafe(3, 2)
+// }
 
 func crackSafe(n int, k int) string {
 	mod := int(math.Pow(10, float64(n-1)))

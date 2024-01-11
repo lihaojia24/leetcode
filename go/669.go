@@ -5,14 +5,6 @@ import (
 	"sort"
 )
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	} else {
-		return b
-	}
-}
-
 func fallingSquares(positions [][]int) (ans []int) {
 	heightMap := map[int]int{0: 0}
 	keys := []int{0}
@@ -85,8 +77,4 @@ func fallingSquares(positions [][]int) (ans []int) {
 		fmt.Printf("keys: %v\n", keys)
 	}
 	return
-}
-
-func main() {
-
 }

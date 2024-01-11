@@ -1,12 +1,10 @@
 package main
 
-import "fmt"
-
 type MagicDictionary struct {
 	m map[int][]string
 }
 
-func Constructor() MagicDictionary {
+func Constructor676() MagicDictionary {
 	return MagicDictionary{make(map[int][]string)}
 }
 
@@ -21,7 +19,7 @@ func (this *MagicDictionary) BuildDict(dictionary []string) {
 	// fmt.Printf("this.m: %v\n", this.m)
 }
 
-func match(a, b string) int {
+func match1(a, b string) int {
 	ans := 0
 	for i := 0; i < len(a); i++ {
 		if a[i] != b[i] {
@@ -33,7 +31,7 @@ func match(a, b string) int {
 
 func (this *MagicDictionary) Search(searchWord string) bool {
 	for _, word := range this.m[len(searchWord)] {
-		if match(word, searchWord) == 1 {
+		if match1(word, searchWord) == 1 {
 			return true
 		}
 	}
@@ -47,12 +45,12 @@ func (this *MagicDictionary) Search(searchWord string) bool {
  * param_2 := obj.Search(searchWord);
  */
 
-func main() {
-	dictionary := []string{"nihao", "hello", "leetcode"}
-	obj := Constructor()
-	obj.BuildDict(dictionary)
-	param_1 := obj.Search("niha")
-	param_2 := obj.Search("niha1")
-	fmt.Printf("param_1: %v\n", param_1)
-	fmt.Printf("param_2: %v\n", param_2)
-}
+// func main() {
+// 	dictionary := []string{"nihao", "hello", "leetcode"}
+// 	obj := Constructor()
+// 	obj.BuildDict(dictionary)
+// 	param_1 := obj.Search("niha")
+// 	param_2 := obj.Search("niha1")
+// 	fmt.Printf("param_1: %v\n", param_1)
+// 	fmt.Printf("param_2: %v\n", param_2)
+// }

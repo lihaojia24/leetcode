@@ -66,7 +66,3 @@ func cutOffTree(forest [][]int) int {
 	}
 	return ans
 }
-
-func main() {
-
-}

@@ -22,7 +22,3 @@ func makeLargestSpecial(s string) string {
 	sort.Sort(sort.Reverse(ss))
 	return strings.Join(ss, "")
 }
-
-func main() {
-
-}

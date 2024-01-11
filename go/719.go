@@ -43,7 +43,3 @@ func smallestDistancePair(nums []int, k int) int {
 	}
 	return left
 }
-
-func main() {
-
-}
