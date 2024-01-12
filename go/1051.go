@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func heightChecker(heights []int) (ans int) {
 	m := [101]int{}
 	for _, v := range heights {
@@ -19,7 +17,7 @@ func heightChecker(heights []int) (ans int) {
 	return
 }
 
-func main() {
-	heights := []int{1, 1, 4, 2, 1, 3}
-	fmt.Printf("heightChecker(heights): %v\n", heightChecker(heights))
-}
+// func main() {
+// 	heights := []int{1, 1, 4, 2, 1, 3}
+// 	fmt.Printf("heightChecker(heights): %v\n", heightChecker(heights))
+// }

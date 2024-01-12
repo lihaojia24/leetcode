@@ -25,21 +25,3 @@ func largest1BorderedSquare(grid [][]int) (ans int) {
 	ans *= ans
 	return
 }
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
-func max(a, b int) int {
-	if a < b {
-		return b
-	}
-	return a
-}
-
-func main() {
-
-}

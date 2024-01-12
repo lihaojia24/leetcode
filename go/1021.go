@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func removeOuterParentheses(s string) string {
 	leftCnt := 0
 	ans := []rune{}
@@ -25,7 +23,7 @@ func removeOuterParentheses(s string) string {
 
 }
 
-func main() {
-	s := "(()())(())(()(()))"
-	fmt.Printf("removeOuterParentheses(s): %v\n", removeOuterParentheses(s))
-}
+// func main() {
+// 	s := "(()())(())(()(()))"
+// 	fmt.Printf("removeOuterParentheses(s): %v\n", removeOuterParentheses(s))
+// }

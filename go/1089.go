@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func duplicateZeros(arr []int) {
 	i, j := 0, -1
 	n := len(arr)
@@ -33,8 +31,8 @@ func duplicateZeros(arr []int) {
 	return
 }
 
-func main() {
-	arr := []int{1, 2, 3}
-	duplicateZeros(arr)
-	fmt.Printf("arr: %v\n", arr)
-}
+// func main() {
+// 	arr := []int{1, 2, 3}
+// 	duplicateZeros(arr)
+// 	fmt.Printf("arr: %v\n", arr)
+// }

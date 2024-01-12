@@ -1,10 +1,10 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+// type TreeNode struct {
+// 	Val   int
+// 	Left  *TreeNode
+// 	Right *TreeNode
+// }
 
 func maxLevelSum(root *TreeNode) int {
 	ans := []int{}
@@ -31,8 +31,4 @@ func maxLevelSum(root *TreeNode) int {
 		}
 	}
 	return res + 1
-}
-
-func main() {
-
 }

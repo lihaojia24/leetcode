@@ -2,15 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
-
-}
-
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+// type TreeNode struct {
+// 	Val   int
+// 	Left  *TreeNode
+// 	Right *TreeNode
+// }
 
 func btreeGameWinningMove(root *TreeNode, n int, x int) bool {
 	fs, rs, ls := 0, 0, 0

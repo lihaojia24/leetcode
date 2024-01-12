@@ -19,7 +19,3 @@ func distanceBetweenBusStops(distance []int, start int, destination int) int {
 		return ans2
 	}
 }
-
-func main() {
-
-}

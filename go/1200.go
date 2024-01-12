@@ -22,7 +22,3 @@ func minimumAbsDifference(arr []int) [][]int {
 	}
 	return res
 }
-
-func main() {
-
-}

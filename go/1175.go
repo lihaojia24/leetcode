@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func numPrimeArrangements(n int) int {
 	const MOD = 1e9 + 7
 	ans := 1
@@ -28,7 +26,7 @@ func numPrimeArrangements(n int) int {
 	return ans
 }
 
-func main() {
-	n := 2
-	fmt.Printf("numPrimeArrangements(n): %v\n", numPrimeArrangements(n))
-}
+// func main() {
+// 	n := 2
+// 	fmt.Printf("numPrimeArrangements(n): %v\n", numPrimeArrangements(n))
+// }
