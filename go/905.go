@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func sortArrayByParity(nums []int) []int {
 	i, j := 0, len(nums)-1
 	for i < j {
@@ -15,8 +13,8 @@ func sortArrayByParity(nums []int) []int {
 	return nums
 }
 
-func main() {
-	nums := []int{3, 1, 2, 4}
-	ans := sortArrayByParity(nums)
-	fmt.Printf("ans: %v\n", ans)
-}
+// func main() {
+// 	nums := []int{3, 1, 2, 4}
+// 	ans := sortArrayByParity(nums)
+// 	fmt.Printf("ans: %v\n", ans)
+// }

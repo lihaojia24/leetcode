@@ -1,13 +1,5 @@
 package main
 
-func max(a int, b int) int {
-	if a > b {
-		return a
-	} else {
-		return b
-	}
-}
-
 func sum(li []int) (ans int) {
 	for _, v := range li {
 		ans += v
@@ -31,8 +23,4 @@ func projectionArea(grid [][]int) int {
 		}
 	}
 	return sum(rowAns) + sum(colAns) + plainAns
-}
-
-func main() {
-
 }

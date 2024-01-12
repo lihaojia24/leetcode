@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func isAlienSorted(words []string, order string) bool {
 	index := [26]int{}
 	for i, ch := range order {
@@ -25,7 +23,7 @@ next:
 	return true
 }
 
-func main() {
-	ans := "abcc" >= "abc"
-	fmt.Printf("ans: %v\n", ans)
-}
+// func main() {
+// 	ans := "abcc" >= "abc"
+// 	fmt.Printf("ans: %v\n", ans)
+// }

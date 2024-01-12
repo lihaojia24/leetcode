@@ -2,18 +2,18 @@ package main
 
 import "math"
 
-type pair struct {
+type pair901 struct {
 	day   int
 	price int
 }
 
 type StockSpanner struct {
-	stack  []pair
+	stack  []pair901
 	curDay int
 }
 
-func Constructor() StockSpanner {
-	return StockSpanner{[]pair{{-1, math.MaxInt}}, -1}
+func Constructor901() StockSpanner {
+	return StockSpanner{[]pair901{{-1, math.MaxInt}}, -1}
 }
 
 func (this *StockSpanner) Next(price int) int {
@@ -21,10 +21,6 @@ func (this *StockSpanner) Next(price int) int {
 		this.stack = this.stack[:len(this.stack)-1]
 	}
 	this.curDay++
-	this.stack = append(this.stack, pair{this.curDay, price})
+	this.stack = append(this.stack, pair901{this.curDay, price})
 	return this.curDay - this.stack[len(this.stack)-2].day
-}
-
-func main() {
-
 }

@@ -1,15 +1,5 @@
 package main
 
-import "fmt"
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	} else {
-		return b
-	}
-}
-
 func lenLongestFibSubseq(arr []int) (ans int) {
 	n := len(arr)
 	m := map[int]int{}
@@ -34,7 +24,7 @@ func lenLongestFibSubseq(arr []int) (ans int) {
 	return
 }
 
-func main() {
-	arr := []int{1, 2, 3, 4, 5, 6, 7, 8}
-	fmt.Printf("lenLongestFibSubseq(arr): %v\n", lenLongestFibSubseq(arr))
-}
+// func main() {
+// 	arr := []int{1, 2, 3, 4, 5, 6, 7, 8}
+// 	fmt.Printf("lenLongestFibSubseq(arr): %v\n", lenLongestFibSubseq(arr))
+// }

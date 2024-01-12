@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func numberOfLines(widths []int, s string) []int {
 	const maxWidth = 100
 	ans := 1
@@ -17,9 +15,9 @@ func numberOfLines(widths []int, s string) []int {
 	return []int{ans, cur}
 }
 
-func main() {
-	widths := []int{10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10}
-	S := "abcdefghijklmnopqrstuvwxyz"
-	ans := numberOfLines(widths, S)
-	fmt.Printf("ans: %v\n", ans)
-}
+// func main() {
+// 	widths := []int{10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10}
+// 	S := "abcdefghijklmnopqrstuvwxyz"
+// 	ans := numberOfLines(widths, S)
+// 	fmt.Printf("ans: %v\n", ans)
+// }

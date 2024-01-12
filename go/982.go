@@ -17,6 +17,6 @@ func countTriplets(nums []int) (ans int) {
 	return ans
 }
 
-func main() {
+// func main() {
 
-}
+// }

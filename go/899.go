@@ -20,7 +20,3 @@ func orderlyQueue(s string, k int) string {
 		return string(t)
 	}
 }
-
-func main() {
-
-}

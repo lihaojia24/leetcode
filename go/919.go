@@ -1,10 +1,10 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+// type TreeNode struct {
+// 	Val   int
+// 	Left  *TreeNode
+// 	Right *TreeNode
+// }
 
 type CBTInserter struct {
 	root   *TreeNode
@@ -12,7 +12,7 @@ type CBTInserter struct {
 	isLeft bool
 }
 
-func Constructor(root *TreeNode) CBTInserter {
+func Constructor919(root *TreeNode) CBTInserter {
 	tree := CBTInserter{root, make([]*TreeNode, 0), false}
 	q := []*TreeNode{root}
 	for len(q) > 0 {
@@ -57,7 +57,3 @@ func (this *CBTInserter) Get_root() *TreeNode {
  * param_1 := obj.Insert(val);
  * param_2 := obj.Get_root();
  */
-
-func main() {
-
-}

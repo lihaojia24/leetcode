@@ -1,10 +1,10 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+// type TreeNode struct {
+// 	Val   int
+// 	Left  *TreeNode
+// 	Right *TreeNode
+// }
 
 func isUnivalTree(root *TreeNode) bool {
 	val := root.Val
@@ -25,6 +25,6 @@ func isUnivalTree(root *TreeNode) bool {
 	return true
 }
 
-func main() {
+// func main() {
 
-}
+// }

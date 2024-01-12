@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type unionSet struct {
 	parents []int
 }
@@ -49,7 +47,7 @@ func euler(n int) []int {
 	return primes
 }
 
-func max(nums []int) int {
+func maxl(nums []int) int {
 	ans := nums[0]
 	for i := 1; i < len(nums); i++ {
 		if nums[i] > ans {
@@ -60,7 +58,7 @@ func max(nums []int) int {
 }
 
 func largestComponentSize(nums []int) int {
-	n := max(nums)
+	n := maxl(nums)
 	primes := euler(n + 1)
 	us := CreateUnionSet(n + 1)
 	for _, num := range nums {
@@ -81,10 +79,10 @@ func largestComponentSize(nums []int) int {
 	for _, num := range nums {
 		ans[us.find(num)]++
 	}
-	return max(ans)
+	return maxl(ans)
 }
 
-func main() {
-	nums := []int{4, 6, 15, 35}
-	fmt.Printf("largestComponentSize(nums): %v\n", largestComponentSize(nums))
-}
+// func main() {
+// 	nums := []int{4, 6, 15, 35}
+// 	fmt.Printf("largestComponentSize(nums): %v\n", largestComponentSize(nums))
+// }

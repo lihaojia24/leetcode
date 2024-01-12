@@ -2,7 +2,7 @@ package main
 
 type RecentCounter []int
 
-func Constructor() (_ RecentCounter) { return }
+func Constructor933() (_ RecentCounter) { return }
 
 func (this *RecentCounter) Ping(t int) int {
 	*this = append(*this, t)
@@ -17,7 +17,3 @@ func (this *RecentCounter) Ping(t int) int {
  * obj := Constructor();
  * param_1 := obj.Ping(t);
  */
-
-func main() {
-
-}

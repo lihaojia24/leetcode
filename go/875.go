@@ -31,8 +31,8 @@ func minEatingSpeed(piles []int, h int) int {
 	return left
 }
 
-func main() {
-	piles := []int{3, 6, 7, 11}
-	h := 8
-	fmt.Printf("minEatingSpeed(piles, h): %v\n", minEatingSpeed(piles, h))
-}
+// func main() {
+// 	piles := []int{3, 6, 7, 11}
+// 	h := 8
+// 	fmt.Printf("minEatingSpeed(piles, h): %v\n", minEatingSpeed(piles, h))
+// }

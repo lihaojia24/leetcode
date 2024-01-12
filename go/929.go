@@ -15,7 +15,3 @@ func numUniqueEmails(emails []string) int {
 	}
 	return len(ans)
 }
-
-func main() {
-
-}

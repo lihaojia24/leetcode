@@ -35,10 +35,10 @@ func mostCommonWord(paragraph string, banned []string) string {
 	return ans
 }
 
-func main() {
-	paragraph := "Bob"
-	banned := []string{}
-	v := mostCommonWord(paragraph, banned)
-	fmt.Printf("v: %v\n", v)
+// func main() {
+// 	paragraph := "Bob"
+// 	banned := []string{}
+// 	v := mostCommonWord(paragraph, banned)
+// 	fmt.Printf("v: %v\n", v)
 
-}
+// }

@@ -14,7 +14,3 @@ func diStringMatch(s string) (ans []int) {
 	ans = append(ans, left)
 	return
 }
-
-func main() {
-
-}

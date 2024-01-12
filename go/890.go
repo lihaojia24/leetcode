@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func findAndReplacePattern(words []string, pattern string) (ans []string) {
 next:
 	for _, word := range words {
@@ -25,8 +23,8 @@ next:
 	return
 }
 
-func main() {
-	words := []string{"abc", "deq", "mee", "aqq", "dkd", "ccc"}
-	pattern := "abb"
-	fmt.Printf("findAndReplacePattern(words, pattern): %v\n", findAndReplacePattern(words, pattern))
-}
+// func main() {
+// 	words := []string{"abc", "deq", "mee", "aqq", "dkd", "ccc"}
+// 	pattern := "abb"
+// 	fmt.Printf("findAndReplacePattern(words, pattern): %v\n", findAndReplacePattern(words, pattern))
+// }

@@ -38,7 +38,3 @@ func toGoatLatin(sentence string) string {
 	}
 	return ans.String()
 }
-
-func main() {
-
-}

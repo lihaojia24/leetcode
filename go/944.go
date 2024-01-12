@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func minDeletionSize(strs []string) (ans int) {
 	row := len(strs)
 	col := len(strs[0])
@@ -19,8 +17,8 @@ func minDeletionSize(strs []string) (ans int) {
 	return
 }
 
-func main() {
-	strs := []string{"abc", "bce", "caa"}
-	ans := minDeletionSize(strs)
-	fmt.Printf("ans: %v\n", ans)
-}
+// func main() {
+// 	strs := []string{"abc", "bce", "caa"}
+// 	ans := minDeletionSize(strs)
+// 	fmt.Printf("ans: %v\n", ans)
+// }

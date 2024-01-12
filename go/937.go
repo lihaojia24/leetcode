@@ -21,7 +21,3 @@ func reorderLogFiles(logs []string) []string {
 	})
 	return logs
 }
-
-func main() {
-
-}

@@ -27,7 +27,7 @@ func shortestToChar(s string, c byte) []int {
 	return ans
 }
 
-func main() {
-	ans := shortestToChar("loveleetcode", 'e')
-	fmt.Printf("ans: %v\n", ans)
-}
+// func main() {
+// 	ans := shortestToChar("loveleetcode", 'e')
+// 	fmt.Printf("ans: %v\n", ans)
+// }

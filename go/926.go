@@ -2,14 +2,6 @@ package main
 
 import "fmt"
 
-func min(a, b int) int {
-	if a < b {
-		return a
-	} else {
-		return b
-	}
-}
-
 func minFlipsMonoIncr(s string) int {
 	num0, num1 := 0, 0
 	for _, ch := range s {
@@ -23,7 +15,7 @@ func minFlipsMonoIncr(s string) int {
 	return min(num0, num1)
 }
 
-func main() {
-	s := "00011000"
-	fmt.Printf("minFlipsMonoIncr(s): %v\n", minFlipsMonoIncr(s))
-}
+// func main() {
+// 	s := "00011000"
+// 	fmt.Printf("minFlipsMonoIncr(s): %v\n", minFlipsMonoIncr(s))
+// }
