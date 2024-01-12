@@ -76,7 +76,3 @@ func catMouseGame(graph [][]int) int {
 
 	return dfs(0, 1, 2)
 }
-
-func main() {
-
-}
