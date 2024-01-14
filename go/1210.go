@@ -1,9 +1,5 @@
 package main
 
-func main() {
-
-}
-
 type tuple struct{ x, y, z int }
 
 var dirs = []tuple{{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}

@@ -41,7 +41,3 @@ func findTheCity(n int, edges [][]int, distanceThreshold int) int {
 	}
 	return ans
 }
-
-func main() {
-
-}

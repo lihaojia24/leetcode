@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func balancedString(s string) int {
 	l := len(s) / 4
 	m := map[byte]int{}
@@ -43,7 +41,7 @@ func balancedString(s string) int {
 	return res
 }
 
-func main() {
-	s := "WQWRQQQW"
-	fmt.Printf("balancedString(s): %v\n", balancedString(s))
-}
+// func main() {
+// 	s := "WQWRQQQW"
+// 	fmt.Printf("balancedString(s): %v\n", balancedString(s))
+// }

@@ -11,7 +11,3 @@ func generateTheString(n int) string {
 	}
 	return ans
 }
-
-func main() {
-
-}

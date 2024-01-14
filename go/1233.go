@@ -20,7 +20,3 @@ func match(a, b string) bool {
 	}
 	return false
 }
-
-func main() {
-
-}

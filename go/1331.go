@@ -19,7 +19,3 @@ func arrayRankTransform(arr []int) []int {
 	}
 	return ans
 }
-
-func main() {
-
-}

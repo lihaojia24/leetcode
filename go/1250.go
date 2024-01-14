@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func gcd(a, b int) int {
 	if b == 0 {
 		return a
@@ -20,7 +18,7 @@ func isGoodArray(nums []int) bool {
 	return g == 1
 }
 
-func main() {
-	nums := []int{12, 8}
-	fmt.Printf("isGoodArray(nums): %v\n", isGoodArray(nums))
-}
+// func main() {
+// 	nums := []int{12, 8}
+// 	fmt.Printf("isGoodArray(nums): %v\n", isGoodArray(nums))
+// }

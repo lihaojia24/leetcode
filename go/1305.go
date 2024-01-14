@@ -1,11 +1,5 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 func inOrder(root *TreeNode) (res []int) {
 	var dfs func(*TreeNode)
 	dfs = func(node *TreeNode) {
@@ -45,8 +39,4 @@ func getAllElements(root1 *TreeNode, root2 *TreeNode) []int {
 		}
 	}
 	return res
-}
-
-func main() {
-
 }

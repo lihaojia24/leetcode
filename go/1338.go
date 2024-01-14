@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func alphabetBoardPath(target string) string {
 	ans := []byte{}
 	x, y := 0, 0
@@ -30,7 +28,7 @@ func alphabetBoardPath(target string) string {
 	return string(ans)
 }
 
-func main() {
-	target := "code"
-	fmt.Printf("alphabetBoardPath(target): %v\n", alphabetBoardPath(target))
-}
+// func main() {
+// 	target := "code"
+// 	fmt.Printf("alphabetBoardPath(target): %v\n", alphabetBoardPath(target))
+// }

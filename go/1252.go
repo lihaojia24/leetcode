@@ -20,7 +20,3 @@ func oddCells(m int, n int, indices [][]int) int {
 	}
 	return oddm*(n-oddn) + oddn*(m-oddm)
 }
-
-func main() {
-
-}

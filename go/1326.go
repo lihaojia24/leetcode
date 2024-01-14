@@ -51,22 +51,8 @@ func minTaps(n int, ranges []int) (ans int) {
 	}
 }
 
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
-func main() {
-	n := 35
-	ranges := []int{1, 0, 4, 0, 4, 1, 4, 3, 1, 1, 1, 2, 1, 4, 0, 3, 0, 3, 0, 3, 0, 5, 3, 0, 0, 1, 2, 1, 2, 4, 3, 0, 1, 0, 5, 2}
-	fmt.Printf("minTaps(n, ranges): %v\n", minTaps(n, ranges))
-}
+// func main() {
+// 	n := 35
+// 	ranges := []int{1, 0, 4, 0, 4, 1, 4, 3, 1, 1, 1, 2, 1, 4, 0, 3, 0, 3, 0, 3, 0, 5, 3, 0, 0, 1, 2, 1, 2, 4, 3, 0, 1, 0, 5, 2}
+// 	fmt.Printf("minTaps(n, ranges): %v\n", minTaps(n, ranges))
+// }

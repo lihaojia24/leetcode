@@ -20,7 +20,3 @@ func findSolution(customFunction func(int, int) int, z int) (ans [][]int) {
 	}
 	return
 }
-
-func main() {
-
-}
