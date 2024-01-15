@@ -28,7 +28,3 @@ func alertNames(keyName []string, keyTime []string) (ans []string) {
 	sort.Strings(ans)
 	return
 }
-
-func main() {
-
-}

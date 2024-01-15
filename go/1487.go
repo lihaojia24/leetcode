@@ -19,6 +19,6 @@ func getFolderNames(names []string) (ans []string) {
 	return ans
 }
 
-func main() {
-	getFolderNames([]string{"ss", "aa", "ss", "aa(2)"})
-}
+// func main() {
+// 	getFolderNames([]string{"ss", "aa", "ss", "aa(2)"})
+// }

@@ -19,7 +19,3 @@ func maxSatisfaction(satisfaction []int) int {
 	return ans
 
 }
-
-func main() {
-
-}

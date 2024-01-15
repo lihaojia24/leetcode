@@ -1,10 +1,10 @@
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+// type TreeNode struct {
+// 	Val   int
+// 	Left  *TreeNode
+// 	Right *TreeNode
+// }
 
 func pseudoPalindromicPaths(root *TreeNode) int {
 	return dfs(root, 0)
@@ -23,8 +23,4 @@ func dfs(root *TreeNode, mask int) int {
 		}
 	}
 	return dfs(root.Left, mask) + dfs(root.Right, mask)
-}
-
-func main() {
-
 }

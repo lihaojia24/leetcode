@@ -2,13 +2,6 @@ package main
 
 import "sort"
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
 func getMax(size int, cuts []int) int {
 	sort.Ints(cuts)
 	res := max(cuts[0], size-cuts[len(cuts)-1])
@@ -22,8 +15,4 @@ func maxArea(h int, w int, horizontalCuts []int, verticalCuts []int) int {
 	h_max := getMax(h, horizontalCuts)
 	v_max := getMax(w, verticalCuts)
 	return (h_max * v_max) % 1_000_000_007
-}
-
-func main() {
-
 }

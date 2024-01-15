@@ -13,7 +13,3 @@ func stringMatching(words []string) (ans []string) {
 	}
 	return
 }
-
-func main() {
-
-}

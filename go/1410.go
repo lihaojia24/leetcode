@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -37,7 +36,7 @@ func entityParser(text string) string {
 	return strings.Join(res, "")
 }
 
-func main() {
-	s := "&amp; is an HTML entity but &ambassador; is not."
-	fmt.Printf("entityParser(s): %v\n", entityParser(s))
-}
+// func main() {
+// 	s := "&amp; is an HTML entity but &ambassador; is not."
+// 	fmt.Printf("entityParser(s): %v\n", entityParser(s))
+// }
