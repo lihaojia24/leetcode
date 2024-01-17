@@ -14,5 +14,3 @@ func tupleSameProduct(nums []int) int {
 	}
 	return ans << 3
 }
-
-func main() {}

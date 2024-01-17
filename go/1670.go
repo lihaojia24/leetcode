@@ -4,7 +4,7 @@ type FrontMiddleBackQueue struct {
 	q []int
 }
 
-func Constructor() FrontMiddleBackQueue {
+func Constructor1670() FrontMiddleBackQueue {
 	return FrontMiddleBackQueue{q: make([]int, 0)}
 }
 

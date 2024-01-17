@@ -5,7 +5,7 @@ type AuthenticationManager struct {
 	ttl    int
 }
 
-func Constructor(timeToLive int) AuthenticationManager {
+func Constructor1797(timeToLive int) AuthenticationManager {
 	return AuthenticationManager{map[string]int{}, timeToLive}
 }
 
@@ -35,7 +35,3 @@ func (am *AuthenticationManager) CountUnexpiredTokens(currentTime int) (ans int)
  * obj.Renew(tokenId,currentTime);
  * param_3 := obj.CountUnexpiredTokens(currentTime);
  */
-
-func main() {
-
-}

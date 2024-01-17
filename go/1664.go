@@ -1,11 +1,9 @@
 package main
 
-import "fmt"
-
-func main() {
-	nums := []int{1, 1, 1, 1}
-	fmt.Printf("waysToMakeFair(nums): %v\n", waysToMakeFair(nums))
-}
+// func main() {
+// 	nums := []int{1, 1, 1, 1}
+// 	fmt.Printf("waysToMakeFair(nums): %v\n", waysToMakeFair(nums))
+// }
 
 func waysToMakeFair(nums []int) (ans int) {
 	so, se := 0, 0

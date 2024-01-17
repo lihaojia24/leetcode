@@ -2,10 +2,6 @@ package main
 
 import "sort"
 
-func main() {
-
-}
-
 func getMaximumConsecutive(coins []int) int {
 	// sort
 	sort.Ints(coins)
