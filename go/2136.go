@@ -25,7 +25,3 @@ func earliestFullBloom(plantTime []int, growTime []int) (ans int) {
 	}
 	return ans
 }
-
-func main() {
-
-}

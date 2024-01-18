@@ -23,7 +23,3 @@ func prefixCount(words []string, pref string) (ans int) {
 	}
 	return
 }
-
-func main() {
-
-}

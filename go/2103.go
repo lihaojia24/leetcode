@@ -23,7 +23,3 @@ func countPoints(rings string) int {
 	}
 	return ans
 }
-
-func main() {
-
-}

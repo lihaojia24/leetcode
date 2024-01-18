@@ -44,7 +44,3 @@ func maximumInvitations(favorite []int) int {
 	}
 	return max(maxLineSize, maxRingSize)
 }
-
-func main() {
-
-}
