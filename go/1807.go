@@ -1,15 +1,14 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
-func main() {
-	s := "(name)is(age)yearsold"
-	knowledge := [][]string{{"name", "bob"}, {"age", "two"}}
-	fmt.Printf("evaluate(s, knowledge): %v\n", evaluate(s, knowledge))
-}
+// func main() {
+// 	s := "(name)is(age)yearsold"
+// 	knowledge := [][]string{{"name", "bob"}, {"age", "two"}}
+// 	fmt.Printf("evaluate(s, knowledge): %v\n", evaluate(s, knowledge))
+// }
 
 func evaluate(s string, knowledge [][]string) string {
 	dict := map[string]string{}

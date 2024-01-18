@@ -5,11 +5,11 @@ import (
 	"strings"
 )
 
-func main() {
-	sentence1 := "if of this"
-	sentence2 := "if this"
-	fmt.Printf("areSentencesSimilar(sentence1, sentence2): %v\n", areSentencesSimilar(sentence1, sentence2))
-}
+// func main() {
+// 	sentence1 := "if of this"
+// 	sentence2 := "if this"
+// 	fmt.Printf("areSentencesSimilar(sentence1, sentence2): %v\n", areSentencesSimilar(sentence1, sentence2))
+// }
 
 func areSentencesSimilar(sentence1 string, sentence2 string) bool {
 	chs1 := strings.Split(sentence1, " ")

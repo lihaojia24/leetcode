@@ -1,9 +1,5 @@
 package main
 
-func main() {
-
-}
-
 func findingUsersActiveMinutes(logs [][]int, k int) []int {
 	ansSet := map[int]map[int]bool{}
 	for _, log := range logs {

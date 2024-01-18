@@ -1,11 +1,9 @@
 package main
 
-import "fmt"
-
-func main() {
-	nums := []int{13, 10, 35, 24, 76}
-	fmt.Printf("countNicePairs(nums): %v\n", countNicePairs(nums))
-}
+// func main() {
+// 	nums := []int{13, 10, 35, 24, 76}
+// 	fmt.Printf("countNicePairs(nums): %v\n", countNicePairs(nums))
+// }
 
 func countNicePairs(nums []int) int {
 	renums := []int{}
