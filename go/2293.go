@@ -1,11 +1,9 @@
 package main
 
-import "fmt"
-
-func main() {
-	nums := []int{1}
-	fmt.Printf("minMaxGame(nums): %v\n", minMaxGame(nums))
-}
+// func main() {
+// 	nums := []int{1}
+// 	fmt.Printf("minMaxGame(nums): %v\n", minMaxGame(nums))
+// }
 
 func minMaxGame(nums []int) int {
 	n := len(nums)
@@ -24,9 +22,9 @@ func minMaxGame(nums []int) int {
 	return nums[0]
 }
 
-func min(x, y int) int {
-	if x < y {
-		return x
-	}
-	return y
-}
+// func min(x, y int) int {
+// 	if x < y {
+// 		return x
+// 	}
+// 	return y
+// }
