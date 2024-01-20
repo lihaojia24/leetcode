@@ -1,11 +1,9 @@
 package main
 
-import "fmt"
-
-func main() {
-	nums := "0122"
-	fmt.Printf("digitCount(nums): %v\n", digitCount(nums))
-}
+// func main() {
+// 	nums := "0122"
+// 	fmt.Printf("digitCount(nums): %v\n", digitCount(nums))
+// }
 
 func digitCount(nums string) bool {
 	length := len(nums)

@@ -1,14 +1,10 @@
 package main
 
-func main() {
-
-}
-
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
+// type TreeNode struct {
+// 	Val   int
+// 	Left  *TreeNode
+// 	Right *TreeNode
+// }
 
 func evaluateTree(root *TreeNode) bool {
 	if root.Val < 2 {

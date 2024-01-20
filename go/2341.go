@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func numberOfPairs(nums []int) (ans []int) {
 	pairs := 0
 	remains := 0
@@ -21,7 +19,7 @@ func numberOfPairs(nums []int) (ans []int) {
 	return
 }
 
-func main() {
-	nums := []int{1, 3, 2, 1, 3, 2, 2}
-	fmt.Printf("numberOfPairs(nums): %v\n", numberOfPairs(nums))
-}
+// func main() {
+// 	nums := []int{1, 3, 2, 1, 3, 2, 2}
+// 	fmt.Printf("numberOfPairs(nums): %v\n", numberOfPairs(nums))
+// }

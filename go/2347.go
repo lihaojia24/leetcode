@@ -22,7 +22,3 @@ func bestHand(ranks []int, suits []byte) string {
 	}
 	return "High Card"
 }
-
-func main() {
-
-}

@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
-	s := "ilovecodingonleetcode"
-	target := "code"
-	fmt.Printf("rearrangeCharacters(s, target): %v\n", rearrangeCharacters(s, target))
-}
+// func main() {
+// 	s := "ilovecodingonleetcode"
+// 	target := "code"
+// 	fmt.Printf("rearrangeCharacters(s, target): %v\n", rearrangeCharacters(s, target))
+// }
 
 func rearrangeCharacters(s string, target string) int {
 	m := map[rune]int{}

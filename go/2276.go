@@ -51,7 +51,7 @@ type CountIntervals struct {
 	cnt int
 }
 
-func Constructor() CountIntervals {
+func Constructor2276() CountIntervals {
 	return CountIntervals{redblacktree.NewWithIntComparator(), 0}
 }
 

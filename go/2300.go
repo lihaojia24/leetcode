@@ -26,7 +26,3 @@ func successfulPairs(spells []int, potions []int, success int64) (ans []int) {
 	}
 	return
 }
-
-func main() {
-
-}

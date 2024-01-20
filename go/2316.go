@@ -33,7 +33,3 @@ func countPairs(n int, edges [][]int) (ans int64) {
 	}
 	return ans
 }
-
-func main() {
-
-}

@@ -18,7 +18,3 @@ func mergeSimilarItems(items1 [][]int, items2 [][]int) (ans [][]int) {
 	}
 	return
 }
-
-func main() {
-
-}

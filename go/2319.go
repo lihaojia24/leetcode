@@ -1,9 +1,5 @@
 package main
 
-func main() {
-
-}
-
 func checkXMatrix(grid [][]int) bool {
 	l := len(grid)
 	for i, row := range grid {

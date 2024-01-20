@@ -1,14 +1,13 @@
 package main
 
 import (
-	"fmt"
 	"unicode"
 )
 
-func main() {
-	s := "lEeTcOdE"
-	fmt.Printf("greatestLetter(s): %v\n", greatestLetter(s))
-}
+// func main() {
+// 	s := "lEeTcOdE"
+// 	fmt.Printf("greatestLetter(s): %v\n", greatestLetter(s))
+// }
 
 func greatestLetter(s string) string {
 	chs := [26]int{}

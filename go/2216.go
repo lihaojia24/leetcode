@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func minDeletion(nums []int) (ans int) {
 	for i := 0; i < len(nums)-1; {
 		if nums[i] != nums[i+1] {
@@ -17,7 +15,7 @@ func minDeletion(nums []int) (ans int) {
 	return
 }
 
-func main() {
-	nums := []int{1, 1, 2, 2, 3, 3, 3}
-	fmt.Printf("minDeletion(nums): %v\n", minDeletion(nums))
-}
+// func main() {
+// 	nums := []int{1, 1, 2, 2, 3, 3, 3}
+// 	fmt.Printf("minDeletion(nums): %v\n", minDeletion(nums))
+// }

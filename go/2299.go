@@ -5,10 +5,6 @@ import (
 	"unicode"
 )
 
-func main() {
-
-}
-
 func strongPasswordCheckerII(password string) bool {
 	if len(password) < 8 {
 		return false

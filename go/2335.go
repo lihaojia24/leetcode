@@ -1,9 +1,5 @@
 package main
 
-func main() {
-
-}
-
 func fillCups(amount []int) int {
 	a, b, c := amount[0], amount[1], amount[2]
 	if b > a {

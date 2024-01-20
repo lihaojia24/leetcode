@@ -1,9 +1,5 @@
 package main
 
-func main() {
-
-}
-
 func decodeMessage(key string, message string) string {
 	m := map[rune]byte{}
 	flag := byte('a')

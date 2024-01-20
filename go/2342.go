@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func maximumSum(nums []int) int {
 	ans := -1
 	var getPossum func(int) int
@@ -25,8 +23,8 @@ func maximumSum(nums []int) int {
 	return ans
 }
 
-func main() {
-	nums := []int{18, 43, 36, 13, 7}
-	s := maximumSum(nums)
-	fmt.Printf("s: %v\n", s)
-}
+// func main() {
+// 	nums := []int{18, 43, 36, 13, 7}
+// 	s := maximumSum(nums)
+// 	fmt.Printf("s: %v\n", s)
+// }
