@@ -39,6 +39,3 @@ func maxKelements(nums []int, k int) int64 {
 	}
 	return int64(ans)
 }
-
-func main() {
-}

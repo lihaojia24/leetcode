@@ -10,7 +10,3 @@ func countDigits(num int) (ans int) {
 	}
 	return
 }
-
-func main() {
-
-}

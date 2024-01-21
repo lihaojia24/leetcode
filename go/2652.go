@@ -7,7 +7,3 @@ func sumOfMultiples(n int) int {
 	}
 	return s(3) + s(5) + s(7) + s(105) - s(15) - s(21) - s(35)
 }
-
-func main() {
-
-}

@@ -31,7 +31,3 @@ func pickGifts(gifts []int, k int) (ans int64) {
 	}
 	return
 }
-
-func main() {
-
-}

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func distMoney(money int, children int) (ans int) {
 	if money > 8*children {
 		return children - 1
@@ -23,6 +21,6 @@ func distMoney(money int, children int) (ans int) {
 	return
 }
 
-func main() {
-	fmt.Printf("distMoney(20, 3): %v\n", distMoney(20, 3))
-}
+// func main() {
+// 	fmt.Printf("distMoney(20, 3): %v\n", distMoney(20, 3))
+// }

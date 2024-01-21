@@ -17,7 +17,3 @@ func splitNum(num int) int {
 	}
 	return ans[0] + ans[1]
 }
-
-func main() {
-
-}

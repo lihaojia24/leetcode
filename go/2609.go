@@ -25,7 +25,3 @@ func findTheLongestBalancedSubstring(s string) (ans int) {
 	ans = max(ans, min(cntOne, cntZero)*2)
 	return
 }
-
-func main() {
-
-}

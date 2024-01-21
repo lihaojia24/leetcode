@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-func main() {
-	nums := []int{0, 1, 2, 2, 4, 4, 1}
-	fmt.Printf("mostFrequentEven(nums): %v\n", mostFrequentEven(nums))
-}
+// func main() {
+// 	nums := []int{0, 1, 2, 2, 4, 4, 1}
+// 	fmt.Printf("mostFrequentEven(nums): %v\n", mostFrequentEven(nums))
+// }
 
 func mostFrequentEven(nums []int) int {
 	m := map[int]int{}
