@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func maximumSumOfHeights(maxHeights []int) int64 {
+func maximumSumOfHeights1(maxHeights []int) int64 {
 	n := len(maxHeights)
 	preMax := make([]int, n)
 	st := []int{-1}
