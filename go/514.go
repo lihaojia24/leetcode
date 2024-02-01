@@ -32,8 +32,8 @@ func findRotateSteps(ring string, key string) int {
 	return res
 }
 
-func main() {
-	ring := "godding"
-	key := "gd"
-	findRotateSteps(ring, key)
-}
+// func main() {
+// 	ring := "godding"
+// 	key := "gd"
+// 	findRotateSteps(ring, key)
+// }
