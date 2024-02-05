@@ -19,8 +19,8 @@ func maxResult(nums []int, k int) int {
 	return res[n-1]
 }
 
-func main() {
-	nums := []int{10, -5, -2, 4, 0, 3}
-	k := 3
-	maxResult(nums, k)
-}
+// func main() {
+// 	nums := []int{10, -5, -2, 4, 0, 3}
+// 	k := 3
+// 	maxResult(nums, k)
+// }
