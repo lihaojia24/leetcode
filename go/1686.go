@@ -33,8 +33,8 @@ func stoneGameVI(aliceValues []int, bobValues []int) int {
 	return 0
 }
 
-func main() {
-	a := []int{1, 3}
-	b := []int{2, 1}
-	stoneGameVI(a, b)
-}
+// func main() {
+// 	a := []int{1, 3}
+// 	b := []int{2, 1}
+// 	stoneGameVI(a, b)
+// }
