@@ -21,7 +21,7 @@ type SmallestInfiniteSet struct {
 	othersM map[int]struct{}
 }
 
-func Constructor() SmallestInfiniteSet {
+func Constructor2336() SmallestInfiniteSet {
 	return SmallestInfiniteSet{othersM: map[int]struct{}{}}
 }
 
