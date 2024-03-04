@@ -4,7 +4,7 @@ type MyStack struct {
 	q1, q2 []int
 }
 
-func Constructor() (s MyStack) {
+func Constructor225() (s MyStack) {
 	return
 }
 
