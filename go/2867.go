@@ -14,7 +14,7 @@ func init() {
 	}
 }
 
-func countPaths(n int, edges [][]int) (ans int64) {
+func countPaths2867(n int, edges [][]int) (ans int64) {
 	g := make([][]int, n+1)
 	for _, e := range edges {
 		x, y := e[0], e[1]
