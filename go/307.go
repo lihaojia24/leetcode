@@ -1,20 +1,20 @@
 package main
 
-type NumArray struct {
+type NumArray307 struct {
 	nums []int
 	sums []int
 }
 
-func Constructor111(nums []int) NumArray {
+func Constructor111(nums []int) NumArray307 {
 	n := len(nums)
-	a := NumArray{make([]int, n), make([]int, n+1)}
+	a := NumArray307{make([]int, n), make([]int, n+1)}
 	for index, num := range nums {
 		a.Update(index, num)
 	}
 	return a
 }
 
-func (this *NumArray) Update(index int, val int) {
+func (this *NumArray307) Update(index int, val int) {
 	delta := val - this.nums[index]
 	this.nums[index] = val
 	index += 1
@@ -23,11 +23,11 @@ func (this *NumArray) Update(index int, val int) {
 	}
 }
 
-func (this *NumArray) SumRange(left int, right int) int {
+func (this *NumArray307) SumRange(left int, right int) int {
 	return this.prefixSum(left+1-1) - this.prefixSum(right+1)
 }
 
-func (this *NumArray) prefixSum(index int) (s int) {
+func (this *NumArray307) prefixSum(index int) (s int) {
 	for i := index; i > 0; i -= i & -i {
 		s += this.sums[i]
 	}

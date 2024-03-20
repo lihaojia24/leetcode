@@ -14,7 +14,7 @@ type FindElements struct {
 	root *TreeNode
 }
 
-func Constructor(root *TreeNode) FindElements {
+func Constructor1261(root *TreeNode) FindElements {
 	return FindElements{root}
 }
 
