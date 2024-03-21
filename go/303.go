@@ -2,7 +2,7 @@ package main
 
 type NumArray []int
 
-func Constructor(nums []int) NumArray {
+func Constructor303(nums []int) NumArray {
 	s := make([]int, len(nums)+1)
 	for i, x := range nums {
 		s[i+1] = s[i] + x
