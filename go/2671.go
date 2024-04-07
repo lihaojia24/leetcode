@@ -5,7 +5,7 @@ type FrequencyTracker struct {
 	freq map[int]int
 }
 
-func Constructor() FrequencyTracker {
+func Constructor2671() FrequencyTracker {
 	return FrequencyTracker{cnt: map[int]int{}, freq: map[int]int{}}
 }
 
