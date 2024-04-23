@@ -11,7 +11,7 @@ class Solution:
             else:
                 no_grumpy_adder += customers[i]
             if i >= minutes:
-                if customers[i-minutes] == 1:
+                if grumpy[i-minutes] == 1:
                     no_grumpy_adder -= customers[i-minutes]
             no_grumpy_adder_max = max(no_grumpy_adder, no_grumpy_adder_max)
         return res + no_grumpy_adder_max
