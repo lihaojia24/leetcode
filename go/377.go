@@ -22,4 +22,5 @@ func combinationSum4(nums []int, target int) int {
 		memo[i] = res
 		return res
 	}
+	return dfs(target)
 }
