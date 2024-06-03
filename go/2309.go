@@ -20,7 +20,7 @@ func greatestLetter(s string) string {
 	}
 	for i := 25; i > -1; i-- {
 		if chs[i] == 3 {
-			return string(i + 'A')
+			return string(rune(i + 'A'))
 		}
 	}
 	return ""
